@@ -1,0 +1,115 @@
+body{
+    background-color: #F4F5F9;
+}
+.logo{
+    color: #713BDB !important;
+}
+.text-logo{
+    position: absolute !important;
+    top: 22px;
+    left: 55px;
+}
+.move-bg{
+    background-color: #A2A4B9;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(162,164,185,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(162,164,185,1);
+    box-shadow: 0px 0px 5px 1px rgba(162,164,185,1);
+}
+.white-bg{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(162,164,185,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(162,164,185,1);
+    box-shadow: 0px 0px 5px 1px rgba(162,164,185,1);
+}
+.move-text{
+    color: #A2A4B9;
+}
+.move-btn{
+    background-color: #713BDB;
+    border: 2px solid #713BDB;
+    color: #FFFFFF !important;
+    border-radius: 12px 12px;
+}
+.move-btn:hover{
+    background-color: #713BDB;
+    border: 2px solid #713BDB;
+}
+.move-btn:active{
+    background-color: #713BDB;
+    border: 2px solid #713BDB;
+}
+
+.side-nav{
+    position: absolute;
+    top: 15%;
+    left: -5px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 0 10px 10px 0;
+    height: 560px;
+}
+.avatar{
+    margin-left: 25%;
+    color: #713BDB;
+    border-color:#713BDB;
+    border-style: solid;
+    border-width: 0 1.5px 1.5px 1.5px;
+    width: 95px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.title{
+    color: #A2A4B9;
+    font-size: 18px;
+}
+.nav-link{
+    color: #A2A4B9;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #713BDB;
+}
+.content-to-load-section{
+    background-color: #FFFFFF;
+    margin-top: 100px;
+}
+.search{
+    border-width: 0 0 1.5px 0;
+    border-color: #A2A4B9;
+    border-radius: 0 0;
+}
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #713BDB;
+    box-shadow: 0 1px 0 0 #713BDB;
+  }
+.my-input:hover{
+    border: 1px solid #713BDB;
+}
+.my-input:focus{
+    border: 1px solid #713BDB;
+}
+
+.message{
+    color:#A2A4B9;
+    font-size:25px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; 
+    -webkit-animation-timing-function: linear; 
+    animation: mymove 30s infinite;
+    animation-timing-function: linear
+    }
+    @-webkit-keyframes mymove {
+    from {
+    left: 300px;
+    }
+    to {
+    left: 800px;
+    }
+}
+.active-link{
+    color: #713BDB;
+}
+
+.error {
+    color: #ff0000;
+}
